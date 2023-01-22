@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+::placeholder{
+  color:#000;
+}
+body{
+  background: #fffcfc;  /* fallback for old browsers */
+
+
+}
+.container,.intro{
+  display:flex;
+  flex-direction:column;
+   justify-content:center;
+ /* align-items:center; */
+ margin-left: 35%;
+  
+}
+.update{
+    margin-top: 10%;
+}
+
+.updateproinp,select,#text{ 
+  width:50%;
+  height:0.2rem;
+  font-size:1rem;
+  border: 1%,solid,#000;
+  padding: 1.34rem;
+}
+#submit{
+  margin-left: 23px;
+  height:2.34rem;
+  padding:0;
+  width: 50%;
+  border: none;
+  color: white;
+  background-color: rgb(32, 162, 32);
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#text{
+  height:auto;
+}
+option{
+  color:#000;
+}
+#title{
+  font-size:1.8rem;
+}

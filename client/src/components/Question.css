@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+.question__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    width: 700px;
+}
+.question_num{
+    
+    padding: 10px;
+    margin: 10px;
+    font-size: smaller;
+    
+    
+}
+.question_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    height: 100px;
+    
+    
+}
+.tag_ask{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+
+}
+.quest_tags{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    margin: -10px;
+}
+.tagq{
+    padding: 3px 9px;
+    margin: 10px;
+    background-color: #233057;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.0rem;
+}
+.userdate{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.qtitle{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: -7px;
+    color: rgb(38, 84, 163);
+    cursor: pointer;
+}
+.qans{
+    margin-bottom: -5px;
+}
+.question{
+    width: 820px;
+    height: auto;
+    background-color: rgb(244, 244, 244);
+    border-bottom: 0.8px solid black;
+}

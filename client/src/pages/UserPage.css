@@ -1,0 +1,32 @@
+.userfilter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.userfilterbtn{
+    border: none;
+    height: 40px;
+    padding: 0px 20px;
+
+}
+.userpage{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #fffcfc;
+}
+.userfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+.usercontainer{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}

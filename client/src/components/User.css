@@ -1,0 +1,31 @@
+.user{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+.userdetails{
+    float: left;
+    margin-top: 10px;
+    
+
+  
+   
+
+}
+.userinfo{
+    margin: -2px;
+}
+.user_name{
+    font-size: 16px;
+    
+    margin: 0;
+}
